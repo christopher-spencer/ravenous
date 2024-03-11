@@ -1,37 +1,44 @@
 /* Universal Styles */
-
 html {
-  font-size: 18px;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html,
 body {
   margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media only screen and (max-width: 560px) {
   html {
-    font-size: 15px;
+      font-size: 14px;
   }
 }
 
 input:focus {
-  outline: none;
+outline: none;
 }
 
 /* App Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .App {
-  font-family: "Work Sans", sans-serif;
+  align-content: center;
+  font-family: 'Poppins', -apple-system, sans-serif;
 }
 
 .App h1 {
   padding: 0.66rem 0;
   text-align: center;
   background-color: #cca353;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', -apple-system, sans-serif;
   font-size: 1.8rem;
-  color: #fff;
+  color: #ffffff;
   margin: 0;
 }
 
