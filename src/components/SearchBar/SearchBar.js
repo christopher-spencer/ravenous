@@ -7,7 +7,7 @@ const sortByOptions = {
   "Most Reviewed": "review_count",
 };
 
-const SearchBar = () => {
+const SearchBar = ( {searchYelp} ) => {
   const [ searchTerm, setSearchTerm ] = useState("");
   const [ location, setLocation ] = useState("");
   const [ sortBy, setSortBy ] = useState("");
@@ -31,6 +31,12 @@ const SearchBar = () => {
     setLocation(event.target.value);
   };
 
+  const handleSearch = (event) => {
+    // Used to prevent the default action of clicking the button
+    event.preventDefault();
+    searchYelp(searchTerm, location, sortBy);
+  };
+
   const renderSortByOptions = () => {
     return Object.keys(sortByOptions).map((sortByOption) => {
       let sortByOptionValue = sortByOptions[sortByOption];
@@ -51,13 +57,15 @@ const SearchBar = () => {
       <div className={styles.SearchBarSortOptions}>
         <ul>{renderSortByOptions()}</ul>
       </div>
-      <div className={styles.SearchBarFields}>
-        <input placeholder="Search Businesses" onChange={handleSearchTermChange} />
-        <input placeholder="Where?" onChange={handleLocationChange} />
-      </div>
-      <div className={styles.SearchBarSubmit}>
-        <a>Let's Go</a>
-      </div>
+      <form onSubmit={handleSearch}>
+        <div className={styles.SearchBarFields}>
+          <input placeholder="Search Businesses" onChange={handleSearchTermChange} />
+          <input placeholder="Where?" onChange={handleLocationChange} />
+        </div>
+        <div className={styles.SearchBarSubmit}>
+          <button type="submit">Let's Go</button>
+        </div>
+      </form>
     </div>
   );
 };
