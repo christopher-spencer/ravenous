@@ -1,69 +1,67 @@
-* {
-  margin: 0;
+.Business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 0 0.5rem 2.3rem 0.5rem;
 }
 
-.business {
-  background-color: #ffffff;
-  border-radius: 1rem;
-  padding: 1.5rem 1.5rem;
-  width: 320px;
-  min-width: 320px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 4px 16px, rgba(0, 0, 0, 0.1) 0px 5px 24px, rgba(0, 0, 0, 0) 0px 5px 25px;
-}
-
-.ImageContainer {
+.Business .imageContainer {
+  height: 16.66rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   overflow: hidden;
+  background: #000;
 }
 
-.businessImage {
-  object-fit: cover;
-  height: 250px;
+.imageContainer img {
   width: 100%;
 }
 
-.businessImage:hover {
-  animation: zoom 0.5s ease forwards;
+.Business h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-@keyframes zoom {
-  to {
-      transform: scale(1.2);
-  }
-}
-
-.nameContainer {
-  width: 100%;
-}
-
-.businessName {
-  font-size: 1.5rem;
-
-  margin: 0.5rem 0;
-}
-
-.businessInfo {
+.BusinessInformation {
   display: flex;
   justify-content: space-between;
 }
 
-.address {
-  width: 70%;
+.BusinessInformation p {
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1rem;
+  margin: 0;
 }
 
-.score {
+.BusinessReviews h3 {
+  margin: 0;
+}
+
+.BusinessAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BusinessReviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: right;
 }
 
-.rating {
+.BusinessReviews h3 {
   color: #cca353;
+  font-weight: 600;
 }
 
-.category {
-  background-color: #cca353;
-  border-radius: 5px;
-  color: #ffffff;
-  font-size: 1rem;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0.1rem 0.5rem;
+.BusinessReviews .rating {
+  font-size: 0.88rem;
+  line-height: 1rem;
 }
