@@ -3,22 +3,23 @@
   flex-direction: column;
   justify-content: center;
   background-image: url("./wedding-bbq.jpg");
-  background-size: cover;
+  background-size: 55rem 22rem;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 27rem;
+  height: 23.5rem;
 }
 
 .SearchBarSortOptions ul {
   display: flex;
   justify-content: center;
-  margin-top: 9rem;
+  margin-top: 4rem;
   margin-bottom: 20.5rem;
   color: #731891;
 }
 
 .SearchBarSortOptions li {
   cursor: pointer;
-  width: 4.33rem;
+  width: 7.33rem;
   border-bottom: 1px solid #731891;
   padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
@@ -42,18 +43,19 @@
 .SearchBarFields {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.88rem;
+  margin-bottom: 0.88rem;
 }
 
 .SearchBarFields input {
-  width: 17rem;
-  padding: 0.66rem 1rem;
-  margin-right: 1.22rem;
+  width: 18rem;
+  padding: 0.55rem 1rem;
+  margin-right: 3rem;
   border: 1px solid #fff;
   background-color: #efc3ea;
   border-radius: 9px;
   font-size: 0.85rem;
   font-weight: 500;
+  text-align: center;
 }
 
 .SearchBarFields input:last-child {
@@ -79,10 +81,10 @@
   background-color: #a7874b;
 }
 
-@media only screen and (max-width: 1150px) {
-  .SearchBar {
+@media only screen and (max-width: 975px) {
+  /* .SearchBar {
     background-image: url("./background_search_mobile.jpg");
-  }
+  } */
 
   .SearchBarSortOptions ul {
     margin-left: 2rem;
