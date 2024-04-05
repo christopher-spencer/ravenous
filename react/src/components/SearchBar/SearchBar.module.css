@@ -11,8 +11,8 @@
 .SearchBarSortOptions ul {
   display: flex;
   justify-content: center;
-  margin-top: 10rem;
-  margin-bottom: 22.22rem;
+  margin-top: 9rem;
+  margin-bottom: 20.5rem;
   color: #731891;
 }
 
@@ -24,7 +24,7 @@
   line-height: 1.13;
   text-align: center;
   font-weight: 600;
-  font-size: 0.83rem;
+  font-size: 0.95rem;
   transition: color 0.25s;
   list-style: none;
 }
@@ -52,7 +52,7 @@
   border: 1px solid #fff;
   background-color: #efc3ea;
   border-radius: 9px;
-  font-size: 0.77rem;
+  font-size: 0.85rem;
   font-weight: 500;
 }
 
