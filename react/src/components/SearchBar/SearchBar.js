@@ -64,7 +64,7 @@ const SearchBar = ({ searchYelp }) => {
           <input placeholder="Where?" onChange={handleLocationChange} />
         </div>
         <div className={styles.SearchBarSubmit}>
-          <button type="submit">Let's Go</button>
+          <button type="submit">Let's Grub</button>
         </div>
       </form>
     </div>

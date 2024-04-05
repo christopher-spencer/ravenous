@@ -11,14 +11,15 @@
 .SearchBarSortOptions ul {
   display: flex;
   justify-content: center;
-  margin-bottom: 2.22rem;
-  color: #ffffff;
+  margin-top: 10rem;
+  margin-bottom: 22.22rem;
+  color: #731891;
 }
 
 .SearchBarSortOptions li {
   cursor: pointer;
   width: 4.33rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #731891;
   padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
   text-align: center;
@@ -45,11 +46,12 @@
 }
 
 .SearchBarFields input {
-  width: 21rem;
+  width: 17rem;
   padding: 0.66rem 1rem;
-  margin-right: 2.22rem;
+  margin-right: 1.22rem;
   border: 1px solid #fff;
-  border-radius: 4px;
+  background-color: #efc3ea;
+  border-radius: 9px;
   font-size: 0.77rem;
   font-weight: 500;
 }
@@ -77,7 +79,7 @@
   background-color: #a7874b;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 1150px) {
   .SearchBar {
     background-image: url("./background_search_mobile.jpg");
   }
