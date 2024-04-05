@@ -60,11 +60,11 @@ const SearchBar = ({ searchYelp }) => {
       </div>
       <form onSubmit={handleSearch}>
         <div className={styles.SearchBarFields}>
-          <input placeholder="Search Businesses" onChange={handleTermChange} />
-          <input placeholder="Where?" onChange={handleLocationChange} />
+          <input placeholder="Whatcha hungry for?" onChange={handleTermChange} />
+          <input placeholder="Pick a city, any city..." onChange={handleLocationChange} />
         </div>
         <div className={styles.SearchBarSubmit}>
-          <button type="submit">Let's Grub</button>
+          <button type="submit">Let's Grub!</button>
         </div>
       </form>
     </div>

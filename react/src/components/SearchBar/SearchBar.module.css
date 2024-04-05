@@ -14,13 +14,13 @@
   justify-content: center;
   margin-top: 3rem;
   margin-bottom: 16.5rem;
-  color: #731891;
+  color: #aa0ae4;
 }
 
 .SearchBarSortOptions li {
   cursor: pointer;
   width: 7.33rem;
-  border-bottom: 1px solid #731891;
+  border-bottom: 1px solid #aa0ae4;
   padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
   text-align: center;
@@ -36,8 +36,8 @@
 
 .SearchBarSortOptions li.active,
 .SearchBarSortOptions li.active:hover {
-  border-bottom: 1px solid #f0c36c;
-  color: #f0c36c;
+  border-bottom: 1px solid #f59607;
+  color: #f59607;
 }
 
 .SearchBarFields {
