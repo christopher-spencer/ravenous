@@ -22,7 +22,8 @@ input:focus {
 /* App Styles */
 
 .App {
-  font-family: "Work Sans", sans-serif;
+  font-family: Chewy, sans-serif;
+  font-weight: 100;
 }
 
 .App h1 {
