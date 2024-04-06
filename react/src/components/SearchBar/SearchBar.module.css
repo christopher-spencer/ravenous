@@ -40,6 +40,11 @@
   color: #f59607;
 }
 
+.Directions {
+  font-size: 0.5rem;
+  text-align: center;
+}
+
 .SearchBarFields {
   display: flex;
   justify-content: center;

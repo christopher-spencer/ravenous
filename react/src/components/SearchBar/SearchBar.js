@@ -58,6 +58,9 @@ const SearchBar = ({ searchYelp }) => {
       <div className={styles.SearchBarSortOptions}>
         <ul>{renderSortByOptions()}</ul>
       </div>
+      <div className={styles.Directions}>
+      <h2>search for slop, grub, grits & chow, here, there, and everywhere</h2>
+      </div>
       <form onSubmit={handleSearch}>
         <div className={styles.SearchBarFields}>
           <input placeholder="Whatcha hungry for?" onChange={handleTermChange} />
