@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div className={styles.App}>
-      <h1>slop, grub, grits & chow</h1>
+      <h1>trough</h1>
       <SearchBar searchYelp={searchYelp} />
       <BusinessList businesses={businesses} />
     </div>
