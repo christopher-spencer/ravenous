@@ -75,20 +75,23 @@
 }
 
 .SearchBarSubmit button {
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 0.72rem 1.7rem;
-  background-color: #cca353;
+  background-color: black;
   color: #ffffff;
+  text-shadow: 0 0.1rem 0.1rem #000;
   font-weight: 100;
   font-size: 1rem;
   font-family: Chewy, sans-serif;
   transition: background-color 0.5s;
-  border: 0;
+  /* border: 0; */
+  border: 1px solid black;
+
 }
 
 .SearchBarSubmit button:hover {
   cursor: pointer;
-  background-color: #a7874b;
+  background-color: #5d4274;
 }
 
 @media only screen and (max-width: 700px) {
@@ -111,6 +114,10 @@
 
   .SearchBarFields input {
     margin-right: 0;
-    margin-bottom: 0.86rem;
+    margin-bottom: 0.15rem;
   }
+
+  /* .SearchBarSubmit button {
+    margin-bottom: 2rem;
+  } */
 }

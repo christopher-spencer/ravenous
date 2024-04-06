@@ -33,6 +33,7 @@ input:focus {
   font-family: Rubik Bubbles, sans-serif;
   font-size: 2.8rem;
   color: #fff;
+  text-shadow: 0 0.1rem 0.1rem #000;
   margin: 0;
   margin-bottom: 0.5rem;
   font-weight: 400;
