@@ -37,12 +37,14 @@
 .SearchBarSortOptions li.active,
 .SearchBarSortOptions li.active:hover {
   border-bottom: 1px solid #cca353;
-  color: #cca353;
+  /* color: #cca353; */
+  color: black;
 }
 
-.Directions {
-  font-size: 0.5rem;
+.Tagline {
+  font-size: 0.54rem;
   text-align: center;
+  font-weight: 100;
 }
 
 .SearchBarFields {

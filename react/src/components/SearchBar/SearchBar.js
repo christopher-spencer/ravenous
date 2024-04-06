@@ -58,7 +58,7 @@ const SearchBar = ({ searchYelp }) => {
       <div className={styles.SearchBarSortOptions}>
         <ul>{renderSortByOptions()}</ul>
       </div>
-      <div className={styles.Directions}>
+      <div className={styles.Tagline}>
       <h2>search for slop, grub, grits & chow, from here, there, and everywhere*</h2>
       </div>
       <form onSubmit={handleSearch}>
