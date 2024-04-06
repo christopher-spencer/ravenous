@@ -59,7 +59,7 @@ const SearchBar = ({ searchYelp }) => {
         <ul>{renderSortByOptions()}</ul>
       </div>
       <div className={styles.Directions}>
-      <h2>search for slop, grub, grits & chow, here, there, and everywhere</h2>
+      <h2>search for slop, grub, grits & chow, from here, there, and everywhere*</h2>
       </div>
       <form onSubmit={handleSearch}>
         <div className={styles.SearchBarFields}>
@@ -67,7 +67,7 @@ const SearchBar = ({ searchYelp }) => {
           <input placeholder="Pick a city, any city..." onChange={handleLocationChange} />
         </div>
         <div className={styles.SearchBarSubmit}>
-          <button type="submit">Let's Grub!</button>
+          <button type="submit">Let's Grub-A-Dub-Dub!</button>
         </div>
       </form>
     </div>

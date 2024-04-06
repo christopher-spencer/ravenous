@@ -36,8 +36,8 @@
 
 .SearchBarSortOptions li.active,
 .SearchBarSortOptions li.active:hover {
-  border-bottom: 1px solid #f59607;
-  color: #f59607;
+  border-bottom: 1px solid #cca353;
+  color: #cca353;
 }
 
 .Directions {
