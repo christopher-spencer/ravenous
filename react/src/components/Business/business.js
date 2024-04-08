@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Business.module.css";
 
 const Business = ({ business }) => {
+
     return (
       <div className={styles.Business}>
         <div className={styles.imageContainer}>
