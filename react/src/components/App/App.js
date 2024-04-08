@@ -5,6 +5,7 @@ import BusinessList from "../BusinessList/BusinessList";
 import SearchBar from "./../SearchBar/SearchBar";
 
 import Yelp from "../../utils/Yelp";
+import Footer from "../Footer/Footer";
 
 const App = () => {
   const [businesses, setBusinesses] = useState([]);
@@ -19,6 +20,7 @@ const App = () => {
       <h1>TROUGH</h1>
       <SearchBar searchYelp={searchYelp} />
       <BusinessList businesses={businesses} />
+      <Footer />
     </div>
   );
 };
