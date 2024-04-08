@@ -31,6 +31,19 @@
   text-align: center;
 }
 
+.BusinessLink {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.BusinessLink:hover h2 {
+  color: #e2b2dc; 
+}
+
+.BusinessLink:hover img {
+  opacity: 0.8; 
+}
+
 .BusinessInformation {
   display: flex;
   justify-content: space-between;

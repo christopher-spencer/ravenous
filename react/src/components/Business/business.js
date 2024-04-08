@@ -6,10 +6,11 @@ const Business = ({ business }) => {
 
     return (
       <div className={styles.Business}>
+                <Link to={`/business/${business.id}`} className={styles.BusinessLink}>
         <div className={styles.imageContainer}>
           <img src={business.imageSrc} alt="" />
         </div>
-        <Link to={`/business/${business.id}`} className={styles.BusinessLink}>
+        {/* <Link to={`/business/${business.id}`} className={styles.BusinessLink}> */}
           <h2>{business.name}</h2>
         </Link>
         <div className={styles.BusinessInformation}>
