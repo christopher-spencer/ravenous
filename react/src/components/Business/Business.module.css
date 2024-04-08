@@ -19,6 +19,7 @@
 
 .imageContainer img {
   width: 100%;
+  height: 100%;
 }
 
 .Business h2 {
@@ -26,6 +27,8 @@
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
+  color: #5d4274;
+  text-align: center;
 }
 
 .BusinessInformation {
