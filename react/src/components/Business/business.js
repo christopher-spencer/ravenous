@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Business.module.css";
 
 const Business = ({ business }) => {
@@ -7,7 +8,9 @@ const Business = ({ business }) => {
         <div className={styles.imageContainer}>
           <img src={business.imageSrc} alt="" />
         </div>
-        <h2>{business.name}</h2>
+        <Link to={`/business/${business.id}`} className={styles.BusinessLink}>
+          <h2>{business.name}</h2>
+        </Link>
         <div className={styles.BusinessInformation}>
           <div className={styles.BusinessAddress}>
             <p>{business.address}</p>
