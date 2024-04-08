@@ -16,24 +16,30 @@ const BusinessDetails = ({ businesses }) => {
 
   return (
     <div className={styles.businessDetailsContainer}>
-        <div className={styles.businessDetails}>
+      <div className={styles.businessDetails}>
         <h2>{business.name}</h2>
         <div className={styles.imageContainer}>
-            <img src={business.imageSrc} alt={business.name} />
+          <img src={business.imageSrc} alt={business.name} />
         </div>
-        <p>Address: {business.address}</p>
-        <p>City: {business.city}</p>
-        <p>State: {business.state}</p>
-        <p>ZIP Code: {business.zipCode}</p>
-        <p>Category: {business.category}</p>
-        <p>Rating: {business.rating} stars</p>
-        <p>Review Count: {business.reviewCount} reviews</p>
+        <div className={styles.details}>
+          <div className={styles.address}>
+            <p>{business.address}</p>
+            <p>{business.city}</p>
+            <p>{business.state}</p>
+            <p>{business.zipCode}</p>
+          </div>
+          <div className={styles.categoryRatingReviewContainer}>
+            <h3>{business.category.toUpperCase()}</h3>
+            <h3>{business.rating} stars</h3>
+            <p>{business.reviewCount} reviews</p>
+          </div>
         </div>
-        <div className={styles.ReturnToBusinessesContainer}>
-            <Link to={"/"} className={styles.ReturnToBusinessesLink}>
-                Return to Businesses
-            </Link>
-        </div>
+      </div>
+      <div className={styles.ReturnToBusinessesContainer}>
+        <Link to={"/"} className={styles.ReturnToBusinessesLink}>
+          Return to Businesses
+        </Link>
+      </div>
     </div>
   );
 };
