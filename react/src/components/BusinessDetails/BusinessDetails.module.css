@@ -71,13 +71,8 @@
   .address p, .categoryRatingReviewContainer p {
     margin: 0.3px 0; 
 }
-  
-  .ReturnToBusinessesContainer {
-    text-align: center;
-    margin-bottom: 15px;
-  }
 
-  .troughChefImageContainer {
+.troughChefImageContainer {
     position: absolute;
     top: calc(45.5% + 1rem);
     left: 54.2%; /* Center the image horizontally */
@@ -90,6 +85,11 @@
 .troughChefImage {
     width: 138%;
     height: auto;
+}
+
+.ReturnToBusinessesContainer {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .ReturnToBusinessesLink {
@@ -185,7 +185,7 @@
 
 @media only screen and (max-height:860px) {
   .troughChefImageContainer {
-    top: calc(51% + 1rem);
+    top: calc(53.7% + 1rem);
     left: 54.2%; /* Center the image horizontally */
   }
 
@@ -203,7 +203,7 @@
 
 @media only screen and (max-height:750px) {
   .troughChefImageContainer {
-    top: calc(58.8% + 1rem);
+    top: calc(59.8% + 1rem);
     left: 54.2%; /* Center the image horizontally */
   }
 }
@@ -229,19 +229,20 @@
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 1195px) {
 
   .imageContainer {
     height: 200px; 
   }
 
   .troughChefImageContainer {
-    top: auto;
+    top: calc(45.9% + 1rem);
     bottom: 2rem; 
   }
 
   .ReturnToBusinessesContainer {
-    margin-bottom: 5px; 
+    margin-top: 18rem;
+    margin-bottom: 1rem; 
   }
 }
   
