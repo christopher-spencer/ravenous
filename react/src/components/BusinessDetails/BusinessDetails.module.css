@@ -5,7 +5,9 @@
     justify-content: center;
     height: 70%;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 26%;
+    position: relative;
+    z-index: 1;
   }
   
   .businessDetails {
@@ -83,4 +85,22 @@
   .ReturnToBusinessesLink:hover {
     text-decoration: underline;
   }
+
+  .troughChefImageContainer {
+    position: absolute;
+    top: 28rem;
+    left: 55.3%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Center the image horizontally */
+    bottom: 0; /* Adjust the distance from the bottom */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px;
+    /* height: auto; Maintain aspect ratio */
+    margin-bottom: 1rem;
+}
+
+.troughChefImage {
+    width: 138%;
+    height: auto;
+}
+
   

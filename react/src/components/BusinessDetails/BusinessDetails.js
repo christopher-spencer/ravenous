@@ -15,31 +15,39 @@ const BusinessDetails = ({ businesses }) => {
     }
 
     return (
-        <div className={styles.businessDetailsContainer}>
-            <div className={styles.businessDetails}>
-                <div className={styles.imageContainer}>
-                    <img src={business.imageSrc} alt={business.name} />
-                </div>
-                <h2>{business.name}</h2>
-                <div className={styles.details}>
-                    <div className={styles.address}>
-                        <p>{business.address}</p>
-                        <p>{business.city}</p>
-                        <p>{business.state}</p>
-                        <p>{business.zipCode}</p>
+        <div>
+            <div className={styles.businessDetailsContainer}>
+                <div className={styles.businessDetails}>
+                    <div className={styles.imageContainer}>
+                        <img src={business.imageSrc} alt={business.name} />
                     </div>
-                    <div className={styles.categoryRatingReviewContainer}>
-                        <h3>{business.category.toUpperCase()}</h3>
-                        <h3>{business.rating} stars</h3>
-                        <p>{business.reviewCount} reviews</p>
+                    <h2>{business.name}</h2>
+                    <div className={styles.details}>
+                        <div className={styles.address}>
+                            <p>{business.address}</p>
+                            <p>{business.city}</p>
+                            <p>{business.state}</p>
+                            <p>{business.zipCode}</p>
+                        </div>
+                        <div className={styles.categoryRatingReviewContainer}>
+                            <h3>{business.category.toUpperCase()}</h3>
+                            <h3>{business.rating} stars</h3>
+                            <p>{business.reviewCount} reviews</p>
+                        </div>
                     </div>
-                </div>
 
-                <div className={styles.ReturnToBusinessesContainer}>
-                    <Link to={"/"} className={styles.ReturnToBusinessesLink}>
-                        Return to Businesses
-                    </Link>
+                    <div className={styles.ReturnToBusinessesContainer}>
+                        <Link to={"/"} className={styles.ReturnToBusinessesLink}>
+                            Return to Businesses
+                        </Link>
+                    </div>
                 </div>
+            </div>
+            <div className={styles.troughChefImageContainer}>
+                <img className={styles.troughChefImage}
+                    src={require("./trough-chef.jpg")}
+                    alt="Trough Chef"
+                />
             </div>
         </div>
     );
