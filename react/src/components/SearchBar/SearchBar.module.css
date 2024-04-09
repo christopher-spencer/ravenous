@@ -37,8 +37,8 @@
 .SearchBarSortOptions li.active,
 .SearchBarSortOptions li.active:hover {
   border-bottom: 1px solid #cca353;
-  /* color: #cca353; */
-  color: black;
+  color: #cca353;
+  /* color: black; */
 }
 
 .Tagline {
@@ -77,7 +77,7 @@
 .SearchBarSubmit button {
   border-radius: 20px;
   padding: 0.72rem 1.7rem;
-  background-color: black;
+  background-color: #cca353;
   color: #ffffff;
   text-shadow: 0 0.1rem 0.1rem #000;
   font-weight: 100;
@@ -85,7 +85,7 @@
   font-family: Chewy, sans-serif;
   transition: background-color 0.5s;
   /* border: 0; */
-  border: 1px solid black;
+  border: 1px solid #cca353;
 
 }
 
