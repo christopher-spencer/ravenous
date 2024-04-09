@@ -14,13 +14,13 @@
   justify-content: center;
   margin-top: 3rem;
   margin-bottom: 13.5rem;
-  color: #e2b2dc;
+  color: #e0bcdb;
 }
 
 .SearchBarSortOptions li {
   cursor: pointer;
   width: 7.33rem;
-  border-bottom: 1px solid #e2b2dc;
+  border-bottom: 1px solid #e0bcdb;
   padding: 0 2.58rem 0.33rem 2.58rem;
   line-height: 1.13;
   text-align: center;
@@ -58,7 +58,7 @@
   padding: 0.55rem 1rem;
   margin-right: 3rem;
   border: 1px solid #fff;
-  background-color: #e2b2dc;
+  background-color: #e0bcdb;
   font-family: Chewy, sans-serif;
   border-radius: 9px;
   font-size: 0.85rem;
