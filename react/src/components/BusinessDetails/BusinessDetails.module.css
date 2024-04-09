@@ -5,18 +5,18 @@
     justify-content: center;
     height: 70%;
     margin-top: 1rem;
-    margin-bottom: 26%;
+    margin-bottom: 27%;
     position: relative;
     z-index: 1;
   }
   
   .businessDetails {
-    width: 80%;
-    max-width: 400px;
+    width: 25%;
+    max-width: 385px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #5d4274;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #feecfd;
     height: 100%;
   }
   
@@ -37,8 +37,8 @@
   .businessDetails h2 {
     font-size: 1.7rem;
     font-weight: 600;
-    color: #e2b2dc;
-    text-shadow: 0.1rem 0.1rem 0.1rem #000;
+    color: #5d4274;
+    text-shadow: 0rem 0.1rem 0rem #000;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -72,35 +72,40 @@
 }
   
   .ReturnToBusinessesContainer {
-    margin-top: 10px;
     text-align: center;
-  }
-  
-  .ReturnToBusinessesLink {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-  }
-  
-  .ReturnToBusinessesLink:hover {
-    text-decoration: underline;
+    margin-bottom: 15px;
   }
 
   .troughChefImageContainer {
     position: absolute;
-    top: 28rem;
-    left: 55.3%; /* Center the image horizontally */
+    top: 26.1rem;
+    left: 53.2%; /* Center the image horizontally */
     transform: translateX(-50%); /* Center the image horizontally */
-    bottom: 0; /* Adjust the distance from the bottom */
-    width: 100%; /* Adjust the width as needed */
+    bottom: 0; 
+    width: 100%; 
     max-width: 400px;
-    /* height: auto; Maintain aspect ratio */
-    margin-bottom: 1rem;
 }
 
 .troughChefImage {
     width: 138%;
     height: auto;
+}
+
+.ReturnToBusinessesLink {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.ReturnToBusinessesLink:hover {
+  text-decoration: underline;
+}
+
+.Loading {
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 25%;
+  font-size: 30px;
 }
 
   

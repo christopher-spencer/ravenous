@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import styles from "./BusinessDetails.module.css";
@@ -10,8 +10,12 @@ const BusinessDetails = ({ businesses }) => {
     // Find the business with the matching ID
     const business = businesses.find((b) => b.id === id);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     if (!business) {
-        return <div>Loading...</div>;
+        return <div className={styles.Loading}>Loading...</div>;
     }
 
     return (
@@ -35,12 +39,6 @@ const BusinessDetails = ({ businesses }) => {
                             <p>{business.reviewCount} reviews</p>
                         </div>
                     </div>
-
-                    <div className={styles.ReturnToBusinessesContainer}>
-                        <Link to={"/"} className={styles.ReturnToBusinessesLink}>
-                            Return to Businesses
-                        </Link>
-                    </div>
                 </div>
             </div>
             <div className={styles.troughChefImageContainer}>
@@ -48,6 +46,11 @@ const BusinessDetails = ({ businesses }) => {
                     src={require("./trough-chef.jpg")}
                     alt="Trough Chef"
                 />
+            </div>
+            <div className={styles.ReturnToBusinessesContainer}>
+                <Link to={"/"} className={styles.ReturnToBusinessesLink}>
+                    Return to Businesses
+                </Link>
             </div>
         </div>
     );
