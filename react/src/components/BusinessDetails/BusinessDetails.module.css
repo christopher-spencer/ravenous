@@ -79,8 +79,8 @@
 
   .troughChefImageContainer {
     position: absolute;
-    top: calc(61.8% + 1rem);
-    left: 53.2%; /* Center the image horizontally */
+    top: calc(45.5% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
     transform: translateX(-50%); /* Center the image horizontally */
     bottom: 0; 
     width: 100%; 
@@ -107,6 +107,126 @@
   margin-top: 20%;
   margin-bottom: 25%;
   font-size: 30px;
+}
+
+@media only screen and (max-height:1300px) {
+  .troughChefImageContainer {
+    top: calc(34.8% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1250px) {
+  .troughChefImageContainer {
+    top: calc(37.5% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1200px) {
+  .troughChefImageContainer {
+    top: calc(37.5% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1150px) {
+  .troughChefImageContainer {
+    top: calc(40% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1100px) {
+  .troughChefImageContainer {
+    top: calc(41% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1060px) {
+  .troughChefImageContainer {
+    top: calc(43% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1010px) {
+  .troughChefImageContainer {
+    top: calc(45.5% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:990px) {
+  .troughChefImageContainer {
+    top: calc(46.5% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:960px) {
+  .troughChefImageContainer {
+    top: calc(46.8% + 1rem);
+    left: 53.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:910px) {
+  .troughChefImageContainer {
+    top: calc(51.4% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+
+  .imageContainer {
+    margin-bottom: 0.9rem;
+  }
+}
+
+@media only screen and (max-height:860px) {
+  .troughChefImageContainer {
+    top: calc(51% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+
+  .imageContainer {
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media only screen and (max-height:800px) {
+  .troughChefImageContainer {
+    top: calc(56.8% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:750px) {
+  .troughChefImageContainer {
+    top: calc(58.8% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:700px) {
+  .troughChefImageContainer {
+    top: calc(62.8% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:650px) {
+  .troughChefImageContainer {
+    top: calc(67.4% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:600px) {
+  .troughChefImageContainer {
+    top: calc(76.4% + 1rem);
+    left: 54.2%; /* Center the image horizontally */
+  }
 }
 
 @media only screen and (max-width: 560px) {
