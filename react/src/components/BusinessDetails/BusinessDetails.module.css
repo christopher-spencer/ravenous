@@ -18,6 +18,7 @@
     border-radius: 8px;
     background-color: #feecfd;
     height: 100%;
+    min-width: 300px;
   }
   
   .imageContainer {
@@ -78,7 +79,7 @@
 
   .troughChefImageContainer {
     position: absolute;
-    top: 26.1rem;
+    top: calc(61.8% + 1rem);
     left: 53.2%; /* Center the image horizontally */
     transform: translateX(-50%); /* Center the image horizontally */
     bottom: 0; 
