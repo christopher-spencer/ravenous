@@ -109,4 +109,19 @@
   font-size: 30px;
 }
 
+@media only screen and (max-width: 560px) {
+
+  .imageContainer {
+    height: 200px; 
+  }
+
+  .troughChefImageContainer {
+    top: auto;
+    bottom: 2rem; 
+  }
+
+  .ReturnToBusinessesContainer {
+    margin-bottom: 5px; 
+  }
+}
   
