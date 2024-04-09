@@ -231,18 +231,51 @@
 
 @media only screen and (max-width: 1195px) {
 
-  .imageContainer {
-    height: 200px; 
-  }
-
   .troughChefImageContainer {
-    top: calc(45.9% + 1rem);
+    top: calc(59.7% + 1rem);
     bottom: 2rem; 
   }
 
   .ReturnToBusinessesContainer {
     margin-top: 18rem;
     margin-bottom: 1rem; 
+  }
+}
+
+@media only screen and (max-width: 760px) {
+
+  .businessDetailsContainer {
+    justify-content: left;
+  }
+
+  .imageContainer {
+    height: 150px;
+  }
+
+  .troughChefImageContainer {
+    top: calc(44% + 1rem);
+    left: 58%;
+    bottom: 2rem; 
+    width: 300px;
+  }
+
+  .ReturnToBusinessesContainer {
+    margin-top: 18rem;
+    margin-bottom: 1rem; 
+  }
+}
+
+@media only screen and (max-width: 560px) {
+
+  .imageContainer {
+    height: 100px;
+  }
+
+  .troughChefImageContainer {
+    top: calc(35.8% + 1rem);
+    left: 59%;
+    bottom: 2rem; 
+    width: 250px;
   }
 }
   
