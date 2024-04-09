@@ -21,19 +21,21 @@ const App = () => {
     <Router>
       <div className={styles.App}>
         <h1>TROUGH</h1>
-        <Routes>
-        <Route
-            path="/"
-            element={
-              <div>
-                <SearchBar searchYelp={searchYelp} />
-                <BusinessList businesses={businesses} />
-              </div>
-            }
-          />
-          <Route path="/business/:id" element={<BusinessDetails businesses={businesses} />} />
-        </Routes>
-        <Footer />
+        <div className={styles.content}>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <div>
+                  <SearchBar searchYelp={searchYelp} />
+                  <BusinessList businesses={businesses} />
+                </div>
+              }
+            />
+            <Route path="/business/:id" element={<BusinessDetails businesses={businesses} />} />
+          </Routes>
+        </div>
+        <Footer className={styles.footer} />
       </div>
     </Router>
   );

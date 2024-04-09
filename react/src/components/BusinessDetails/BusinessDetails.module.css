@@ -8,6 +8,7 @@
     margin-bottom: 27%;
     position: relative;
     z-index: 1;
+    flex: 1;
   }
   
   .businessDetails {
@@ -89,7 +90,10 @@
 
 .ReturnToBusinessesContainer {
   text-align: center;
-  margin-bottom: 15px;
+  margin-top: 20rem; /* Add margin to separate from business details */
+  position: relative;
+  bottom: 5rem; /* Adjust position to ensure it's above the footer */
+  width: 100%; /* Ensure it spans the full width */
 }
 
 .ReturnToBusinessesLink {

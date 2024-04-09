@@ -41,3 +41,11 @@ input:focus {
   margin-bottom: 0.5rem;
   font-weight: 400;
 }
+
+.content {
+  flex: 1; /* This allows the content to take up remaining space */
+}
+
+.footer {
+  flex-shrink: 0; /* This prevents the footer from shrinking */
+}
