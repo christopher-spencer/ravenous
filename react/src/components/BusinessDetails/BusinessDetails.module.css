@@ -116,70 +116,96 @@
 @media only screen and (max-height:1300px) {
   .troughChefImageContainer {
     top: calc(34.8% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1275px) {
+  .troughChefImageContainer {
+    top: calc(36.15% + 1rem);
   }
 }
 
 @media only screen and (max-height:1250px) {
   .troughChefImageContainer {
     top: calc(37.5% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1225px) {
+  .troughChefImageContainer {
+    top: calc(38.1% + 1rem);
   }
 }
 
 @media only screen and (max-height:1200px) {
   .troughChefImageContainer {
-    top: calc(37.5% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+    top: calc(38.75% + 1rem);
+  }
+}
+
+@media only screen and (max-height:1175px) {
+  .troughChefImageContainer {
+    top: calc(39.25% + 1rem);
   }
 }
 
 @media only screen and (max-height:1150px) {
   .troughChefImageContainer {
     top: calc(40% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1125px) {
+  .troughChefImageContainer {
+    top: calc(40.5% + 1rem);
   }
 }
 
 @media only screen and (max-height:1100px) {
   .troughChefImageContainer {
     top: calc(41% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1130px) {
+  .troughChefImageContainer {
+    top: calc(42% + 1rem);
   }
 }
 
 @media only screen and (max-height:1060px) {
   .troughChefImageContainer {
     top: calc(43% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:1035px) {
+  .troughChefImageContainer {
+    top: calc(44.25% + 1rem);
   }
 }
 
 @media only screen and (max-height:1010px) {
   .troughChefImageContainer {
     top: calc(45.5% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
   }
 }
 
 @media only screen and (max-height:990px) {
   .troughChefImageContainer {
     top: calc(46.5% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
   }
 }
 
 @media only screen and (max-height:960px) {
   .troughChefImageContainer {
     top: calc(46.8% + 1rem);
-    left: 53.2%; /* Center the image horizontally */
   }
 }
 
 @media only screen and (max-height:910px) {
   .troughChefImageContainer {
     top: calc(51.4% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
   }
 
   .imageContainer {
@@ -190,7 +216,6 @@
 @media only screen and (max-height:860px) {
   .troughChefImageContainer {
     top: calc(53.7% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
   }
 
   .imageContainer {
@@ -201,35 +226,102 @@
 @media only screen and (max-height:800px) {
   .troughChefImageContainer {
     top: calc(56.8% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:775px) {
+  .troughChefImageContainer {
+    top: calc(58.3% + 1rem);
   }
 }
 
 @media only screen and (max-height:750px) {
   .troughChefImageContainer {
     top: calc(59.8% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:725px) {
+  .troughChefImageContainer {
+    top: calc(61.3% + 1rem);
   }
 }
 
 @media only screen and (max-height:700px) {
   .troughChefImageContainer {
     top: calc(62.8% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:675px) {
+  .troughChefImageContainer {
+    top: calc(65.1% + 1rem);
   }
 }
 
 @media only screen and (max-height:650px) {
   .troughChefImageContainer {
     top: calc(67.4% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:625px) {
+  .troughChefImageContainer {
+    top: calc(71.9% + 1rem);
   }
 }
 
 @media only screen and (max-height:600px) {
   .troughChefImageContainer {
     top: calc(76.4% + 1rem);
-    left: 54.2%; /* Center the image horizontally */
+  }
+}
+
+@media only screen and (max-height:575px) {
+  .troughChefImageContainer {
+    top: calc(78.9% + 1rem);
+  }
+}
+
+@media only screen and (max-height:550px) {
+  .troughChefImageContainer {
+    top: calc(85.4% + 1rem);
+  }
+}
+
+@media only screen and (max-height:525px) {
+  .troughChefImageContainer {
+    top: calc(88.9% + 1rem);
+  }
+}
+
+@media only screen and (max-height:500px) {
+  .troughChefImageContainer {
+    top: calc(92.4% + 1rem);
+  }
+}
+
+@media only screen and (max-height:450px) {
+  .troughChefImageContainer {
+    top: calc(110.4% + 1rem);
+  }
+}
+
+@media only screen and (max-height:300px) {
+  .troughChefImageContainer {
+    top: calc(118.4% + 1rem);
+  }
+}
+
+@media only screen and (max-height:350px) {
+  .troughChefImageContainer {
+    top: calc(126.4% + 1rem);
+  }
+}
+
+@media only screen and (max-height:300px) {
+  .troughChefImageContainer {
+    top: calc(171.4% + 1rem);
   }
 }
 
