@@ -239,89 +239,119 @@
   .troughChefImageContainer {
     top: calc(59.8% + 1rem);
   }
+
+  .imageContainer {
+    height: 150px;
+  }
+
+  .troughChefImageContainer {
+    top: calc(43.6% + 1rem);
+    left: 56%;
+    bottom: 2rem; 
+    width: 300px; 
+  }
 }
 
 @media only screen and (max-height:725px) {
   .troughChefImageContainer {
-    top: calc(61.3% + 1rem);
+    top: calc(44.7% + 1rem);
   }
 }
 
 @media only screen and (max-height:700px) {
   .troughChefImageContainer {
-    top: calc(62.8% + 1rem);
+    top: calc(46.5% + 1rem);
   }
 }
 
 @media only screen and (max-height:675px) {
   .troughChefImageContainer {
-    top: calc(65.1% + 1rem);
+    top: calc(48.4% + 1rem);
   }
 }
 
 @media only screen and (max-height:650px) {
   .troughChefImageContainer {
-    top: calc(67.4% + 1rem);
+    top: calc(50.4% + 1rem);
   }
 }
 
 @media only screen and (max-height:625px) {
   .troughChefImageContainer {
-    top: calc(71.9% + 1rem);
+    top: calc(52.9% + 1rem);
   }
 }
 
 @media only screen and (max-height:600px) {
   .troughChefImageContainer {
-    top: calc(76.4% + 1rem);
+    top: calc(54.4% + 1rem);
   }
 }
 
 @media only screen and (max-height:575px) {
   .troughChefImageContainer {
-    top: calc(78.9% + 1rem);
+    top: calc(56.9% + 1rem);
   }
 }
 
 @media only screen and (max-height:550px) {
+  .imageContainer {
+    height: 100px;
+  }
+
   .troughChefImageContainer {
-    top: calc(85.4% + 1rem);
+    top: calc(53% + 1rem);
+    left: 57%;
+    bottom: 2rem; 
+    width: 250px;
   }
 }
 
 @media only screen and (max-height:525px) {
   .troughChefImageContainer {
-    top: calc(88.9% + 1rem);
+    top: calc(56% + 1rem);
   }
 }
 
 @media only screen and (max-height:500px) {
   .troughChefImageContainer {
-    top: calc(92.4% + 1rem);
+    top: calc(59% + 1rem);
+  }
+}
+
+@media only screen and (max-height:475px) {
+  .troughChefImageContainer {
+    top: calc(62% + 1rem);
   }
 }
 
 @media only screen and (max-height:450px) {
   .troughChefImageContainer {
-    top: calc(110.4% + 1rem);
+    top: calc(65.4% + 1rem);
   }
 }
 
-@media only screen and (max-height:300px) {
+@media only screen and (max-height:425px) {
   .troughChefImageContainer {
-    top: calc(118.4% + 1rem);
+    top: calc(69% + 1rem);
+  }
+}
+
+@media only screen and (max-height:400px) {
+  .troughChefImageContainer {
+    top: calc(76% + 1rem);
   }
 }
 
 @media only screen and (max-height:350px) {
   .troughChefImageContainer {
-    top: calc(126.4% + 1rem);
+    top: calc(84.4% + 1rem);
   }
 }
 
-@media only screen and (max-height:300px) {
+@media only screen and (max-height:325px) {
   .troughChefImageContainer {
-    top: calc(171.4% + 1rem);
+    top: calc(96.4% + 1rem);
   }
 }
 
@@ -362,6 +392,15 @@
 }
 
 @media only screen and (max-width: 560px) {
+
+  .businessDetails h2 {
+    font-size: 1.3rem;
+  }
+
+  .businessDetails {
+    font-size: 0.7rem;
+    min-width: 150px;
+  }
 
   .imageContainer {
     height: 100px;
